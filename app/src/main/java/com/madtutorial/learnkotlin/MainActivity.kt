@@ -11,9 +11,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Toast.makeText(applicationContext,
-            "Hello World",
+            "Hello World from kotlin",
             Toast.LENGTH_SHORT)
-            .show();
+            .show()
 
     }
 }
